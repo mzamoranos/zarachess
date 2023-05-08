@@ -1,0 +1,66 @@
+.grupo {
+  display: flex;
+  flex-flow: row wrap;
+}
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: calc(20% - 8px);
+  margin-bottom: 30px;
+  padding: 10px;
+  margin: auto;
+
+  width: 20%;
+  @media (max-width: $mqMaxWidth) {
+    flex-basis: calc(45% - 8px);
+  }
+  @media (max-width: $mqMinWidth) {
+    flex-basis: calc(95% - 8px);
+  }
+}
+.card .nombre {
+  flex-basis: 250px;
+  flex-grow: 0.3;
+  flex-shrink: 1;
+  padding: 5px;
+  //@media (max-width: $mqMaxWidth) {
+  // flex-direction: column;
+  //}
+}
+
+.card .info {
+  flex-shrink: 2;
+}
+
+h2 {
+  color: $bg2;
+  text-align: left;
+  font-size: calc(1em + 1.5vw);
+  margin: 5px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  color: $corporate;
+  text-align: right;
+  font-size: calc(1em + 1vw);
+  //margin: 5px;
+  font-weight: bold;
+  @media (min-width: $mqMinWidth) {
+    max-width: none;
+  }
+}
+
+.circular--square {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  //margin: auto;
+}
+
+.info {
+  margin: auto;
+  padding: 5px;
+  height: min-content;
+}

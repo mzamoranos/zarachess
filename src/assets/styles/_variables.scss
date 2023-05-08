@@ -1,0 +1,13 @@
+@use "sass:color";
+
+$font-family-sans-serif: -apple-system, blinkMacSystemFont, "Segoe UI", roboto,
+  "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+$corporate: #636360da;
+$masterbrand: hsl(128, 56%, 22%);
+$bg: color.scale($masterbrand, $lightness: 50%);
+$bg2: color.scale($corporate, $lightness: -35%);
+
+$mqMinWidth: 420px;
+$mqMaxWidth: 820px;

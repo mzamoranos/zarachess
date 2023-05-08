@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/src/assets/images/favicon/favicon.png"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <!-- do not remove this line! -->
+        <title>ZARACHESS</title>
+    </head>
+    <body>
+        <h1>ZARACHESS</h1>
+        <h2>1er Torneo de Ajedrez - 2023</h2>
+        <div class="texto1">
+            <h1>Inscripción</h1> 
+            <p> Rellena los campos para la inscripción, recibirás un correo de confirmación.
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label>Nombre: <input type="text" name="name" placeholder="nombre completo"/></label>
+                    </p>
+                    <p>
+                        <label>Fecha de nacimiento: <input type="date" name="date" /></label>
+                      </p>
+                      <p>
+                        <label>Teléfono: <input type="tel" name="telefono" /></label>
+                      </p>
+                    <p>
+                      <label>Correo electrónico: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      Recuerda que has de estar en la casa de la juventud 15 minutos antes para acreditarte
+                    </p>
+                    <p>
+                      <label>Observaciones: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                  </form><br/>
+                ¡No te arrepentiras!
+            </p>
+        </div>
+
+
+
+
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+    </body>
+</html>
