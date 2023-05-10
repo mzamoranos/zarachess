@@ -9,5 +9,5 @@ $masterbrand: hsl(128, 56%, 22%);
 $bg: color.scale($masterbrand, $lightness: 50%);
 $bg2: color.scale($corporate, $lightness: -35%);
 
-$mqMinWidth: 420px;
+$mqMinWidth: 500px;
 $mqMaxWidth: 820px;

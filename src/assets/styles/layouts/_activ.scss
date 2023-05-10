@@ -1,6 +1,15 @@
+@supports (display: flex) {
+  body,
+  nav {
+    background-color: $bg;
+  }
+  article {
+    margin-bottom: 30px;
+  }
+}
+
 header {
   background-color: $bg;
-  //color: #fff;
   padding: 10px;
 }
 
