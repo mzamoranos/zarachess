@@ -1,0 +1,60 @@
+header {
+  background-color: $bg;
+  //color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  color: $masterbrand;
+  margin-top: 0;
+}
+
+article p {
+  line-height: 1.5;
+}
+
+article img {
+  max-width: 35%;
+  height: auto;
+  margin-bottom: 20px;
+  @media (min-width: $mqMinWidth) {
+    max-width: none;
+  }
+}
+
+blockquote {
+  border-left: 5px solid $masterbrand;
+  color: $bg;
+}
+
+li {
+  color: $bg2;
+}
